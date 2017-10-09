@@ -5,11 +5,6 @@ import PropTypes from 'prop-types';
 
 export default function(ComposedComponent){
     class Authentication extends Component {
-        static contextTypes = {
-            router: React.PropTypes.object
-        }
-
-
         render(){
             console.log(this.context);
             return <ComposedComponent {...this.props} />
