@@ -32,5 +32,5 @@ ReactDOM.render(
         </Router>
     </BrowserRouter>
     
-    , document.getElementById('root'));
+    ,document.getElementById('root'));
 
